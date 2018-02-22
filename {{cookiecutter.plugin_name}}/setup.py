@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from helga_{{ cookiecutter.plugin_package }} import __version__ as version
+from {{ cookiecutter.plugin_package }} import __version__ as version
 
 
 setup(
