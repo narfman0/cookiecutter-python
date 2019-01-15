@@ -1,25 +1,25 @@
-{{ cookiecutter.plugin_name }}
+{{ cookiecutter.name }}
 ==============
 
-.. image:: https://badge.fury.io/py/{{ cookiecutter.plugin_name }}.png
-    :target: https://badge.fury.io/py/{{ cookiecutter.plugin_name }}
+.. image:: https://badge.fury.io/py/{{ cookiecutter.name }}.png
+    :target: https://badge.fury.io/py/{{ cookiecutter.name }}
 
-.. image:: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.plugin_name }}.png?branch=master
-    :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.plugin_name }}
+.. image:: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.name }}.png?branch=master
+    :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.name }}
 
-{{ cookiecutter.plugin_description }}
+{{ cookiecutter.description }}
 
 Installation
 ------------
 
 Install via pip::
 
-    pip install {{ cookiecutter.plugin_name }}
+    pip install {{ cookiecutter.name }}
 
 Usage
 -----
 
-    !{{ cookiecutter.plugin_name }} help
+    !{{ cookiecutter.name }} help
 
 Development
 -----------
