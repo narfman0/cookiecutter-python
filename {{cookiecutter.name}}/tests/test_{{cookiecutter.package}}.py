@@ -1,6 +1,4 @@
-import sys
 import unittest
-from unittest import mock
 from {{ cookiecutter.package }}.{{ cookiecutter.package }} import logic
 
 

@@ -8,6 +8,7 @@ wheel = "*"
 twine = "*"
 
 [dev-packages]
+pytest = "*"
 pytest-cov = "*"
 pytest-black = "*"
 "pytest-flake8" = "*"
