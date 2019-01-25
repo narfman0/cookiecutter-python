@@ -16,28 +16,17 @@ Install via pip::
 
     pip install {{ cookiecutter.name }}
 
-Usage
------
-
-    !{{ cookiecutter.name }} help
-
 Development
 -----------
 
-Install all the testing requirements::
-
-    pip install -r requirements_test.txt
-
-Run tox to ensure everything works::
+Run test suite to ensure everything works::
 
     make test
-
-You may also invoke `tox` directly if you wish.
 
 Release
 -------
 
-To publish your plugin to pypi, sdist and wheels are (registered,) created and uploaded with::
+To publish your plugin to pypi, sdist and wheels are registered, created and uploaded with::
 
     make release
 

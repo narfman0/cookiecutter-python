@@ -20,5 +20,5 @@ setup(
     include_package_data=True,
     zip_safe=True,
     install_requires=[],
-    test_suite="tests/test_{{ cookiecutter.package }}",
+    test_suite="tests",
 )
