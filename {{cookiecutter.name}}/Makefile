@@ -26,4 +26,4 @@ release: clean ## package and upload a release
 	pipenv run twine upload
 
 t: run-test
-test: init t
+test: init-dev t
