@@ -28,7 +28,11 @@ Release
 
 To publish your plugin to pypi, sdist and wheels are registered, created and uploaded with::
 
-    make release
+    make release-test
+
+For test. After ensuring the package works, run the prod target and win::
+
+    make release-prod
 
 License
 -------
